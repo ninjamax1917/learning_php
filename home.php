@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Добро пожаловать на главную страницу!</h1>
-        <a style="text-decoration: none" href="about.php">На страницу about.php</a>
-</body>
-</html>
+<?php include 'components/head.php'; ?>
+<h1>Добро пожаловать на главную страницу!</h1>
+
+<a style="text-decoration: none" href="about.php">На страницу about.php</a>
+<br>
+<a style="text-decoration: none" href="news.php">На страницу news.php</a>
+<?php include 'components/footer.php'; ?>
